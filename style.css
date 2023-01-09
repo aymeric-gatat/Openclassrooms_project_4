@@ -15,8 +15,6 @@ button {
     outline: none !important;
 }
 
-a:hover {}
-
 strong {
     font-weight: normal;
 }
@@ -95,9 +93,6 @@ strong {
     right: 0;
 
 }
-
-
-
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -901,6 +896,9 @@ h4 {
     color: #FFF !important;
 }
 
+/* menu burger */
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1155,7 +1153,6 @@ h4 {
 /* ---------------------------- */
 h2 {
     margin: 0 auto;
-    width: 75%;
     text-align: center;
     font-family: Helvetica, sans-serif;
     letter-spacing: -0.2px;
@@ -1260,17 +1257,12 @@ blockquote p {
 }
 
 #bloc-5-cta h2 {
-    text-shadow: 0 0 10px black;
     color: #fff !important;
 }
 
 #Objectifs h2 {
-    text-shadow: 0 0 10px black;
-}
-
-#page_contact h1 {
-    color: rgb(30, 30, 30) !important;
-    text-shadow: 0 0 3px white;
+    color: #fff !important;
+    font-weight: 800;
 }
 
 .p-contrast {
@@ -1324,7 +1316,6 @@ blockquote p {
 .item-nav:focus {
     border: 2px solid #F3976C;
     border: 2px solid rgb(255, 134, 47);
-    ;
 }
 
 
@@ -1371,7 +1362,7 @@ blockquote p {
 }
 
 .text-resize {
-    font-size: 1.3rem !important;
+    font-size: 16px !important;
 }
 
 .border-seo:focus {
@@ -1489,4 +1480,15 @@ textarea:focus {
 
 #nav-toggle:focus {
     border: 2px solid rgb(255, 134, 47);
+}
+
+h2 {
+    vertical-align: center;
+    text-align: center;
+}
+
+html,
+body {
+    margin: 0;
+    height: 100%;
 }
