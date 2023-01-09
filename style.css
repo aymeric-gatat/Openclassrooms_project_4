@@ -720,6 +720,7 @@ a {
 }
 
 .logo {
+    width: auto;
     height: 40px;
 }
 
@@ -1208,7 +1209,7 @@ blockquote p {
 
     img.center-block.image-resize-mode {
         width: 80px;
-        width: 80px;
+        height: auto;
     }
 
     h2,
